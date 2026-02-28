@@ -3,24 +3,35 @@
 [![EN](https://img.shields.io/badge/EN-English-blue)](README.md)
 
 ## Qué Resuelve
-Manage Kubernetes and Docker container deployments.
+
+Gestiona despliegues de contenedores Kubernetes y Docker con Helm y service mesh.
 
 ## Cuándo Se Activa
-- user mentions kubernetes, docker, containers, pods, helm
 
-## Uso
-/container-orch
-
-## Ejemplos
-Deploy to K8s, setup helm chart, configure ingress
+- Kubernetes, K8s, Docker, Helm
+- Despliegue de contenedores, gestión de pods
+- Service mesh, configuración de ingress
 
 ## Requisitos
-- Agente OpenClaw
-- Acceso a herramientas de devops
+
+- Acceso a cluster Kubernetes (kubectl configurado)
+- Helm 3 instalado
+- Acceso a container registry
+
+## Ejemplos
+
+```
+Desplegar en Kubernetes
+Crear Helm chart
+Configurar ingress
+Gestionar pods
+```
 
 ## Limitaciones
-- Requiere contexto de devops
-- Puede necesitar configuración adicional
+
+- Requiere acceso a cluster K8s
+- Algunas operaciones necesitan cluster-admin
 
 ## Licencia
+
 MIT
